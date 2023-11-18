@@ -2,12 +2,12 @@ public class Complex {
 
     private double re;
     private double im;
-    
+
     public Complex() {
         this.re = 0;
         this.im = 0;
     }
-    
+
     public Complex(double re, double im) {
         this.re = re;
         this.im = im;
@@ -39,6 +39,6 @@ public class Complex {
     }
 
     public String toString() {
-        return ""+this.re+" + "+this.im+"i";
+        return "" + this.re + " + " + this.im + "i";
     }
 }
